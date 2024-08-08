@@ -1,0 +1,179 @@
+{
+    "nome": {
+        "nome": "Aurelius",
+        "cognome": "Scaevus",
+        "soprannome": ""
+    },
+    "giocatore": "Elia",
+    "origine": {
+        "razza": "Umano",
+        "classe": "Monaco",
+        "livello": "1",
+        "background": "Forestiero",
+        "allineamento": "",
+        "puntiesperienza": 0
+    },
+    "statistiche": {
+        "forza": 15,
+        "destrezza": 13,
+        "costituzione": 9,
+        "intelligenza": 14,
+        "saggezza": 17,
+        "carisma": 11
+    },
+    "ispirazione": false,
+    "bonusdicompetenza": "",
+    "tirisalvezza": {
+        "forza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "destrezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "costituzione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intelligenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "saggezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "carisma": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "abilita": {
+        "acrobazia": {
+            "attivo": true,
+            "valore": 0
+        },
+        "addestramentoanimali": {
+            "attivo": false,
+            "valore": 0
+        },
+        "arcano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "atletica": {
+            "attivo": false,
+            "valore": 0
+        },
+        "furtivita": {
+            "attivo": false,
+            "valore": 0
+        },
+        "indagare": {
+            "attivo": false,
+            "valore": 0
+        },
+        "inganno": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intimidire": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intrattenere": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intuizione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "medicina": {
+            "attivo": false,
+            "valore": 0
+        },
+        "natura": {
+            "attivo": false,
+            "valore": 0
+        },
+        "percezione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "persuasione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "rapiditadimano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "religione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "sopravvivenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "storia": {
+            "attivo": true,
+            "valore": 0
+        }
+    },
+    "ca": "",
+    "iniziativa": "",
+    "velocita": "",
+    "puntiferita": {
+        "max": 8,
+        "attuali": 8,
+        "temp": 0
+    },
+    "dadivita": {
+        "totale": 8,
+        "attuale": 8
+    },
+    "tscontromorte": {
+        "success": 0,
+        "falliment": 0
+    },
+    "tratticaratteriali": "Una volta il forestiero ha corso quaranta chilometri ininterrottamente per avvertire il suo clan dell'arrivo di un'orda di orchi. E lo rifarebbe nel caso se ne presentasse la necessità",
+    "ideali": "La vita è come le stagioni: in costante mutamento, e noi dobbiamo mutare di conseguenza",
+    "legami": "Il forestiero ha avuto la terribile visione di un disastro incombente e farà tutto il possibile per scongiurarlo",
+    "difetti": "Il forestiero ama troppo la birra, il vino e gli altri alcolici",
+    "attacchieincantesimi": [],
+    "saggezzapercezionepassiva": "",
+    "altrecompetenzeelinguaggi": [
+        "Affinità con l'elemento Acqua"
+    ],
+    "equipaggiamento": [],
+    "monete": {
+        "mr": 0,
+        "ma": 0,
+        "me": 0,
+        "mo": 0,
+        "mp": 0
+    },
+    "privilegietratti": [
+        "Il forestiero ha un'ottima memoria geografica e uno spiccato senso dell'orientamento: riesce sempre a ricordare la disposizione generale del territorio, degli insediamenti e degli altri punti di riferimento attorno a lui. Inoltre è in grado di trovare cibo e acqua fresca per se stesso per un massimo di altre cinque persone ogni giorno, purchè il territorio offra bacche, selvaggina, acqua e così via"
+    ],
+    "caratteristichefisiche": {
+        "eta": "",
+        "occhi": "",
+        "altezza": "185",
+        "peso": "220",
+        "carnagione": "",
+        "capelli": ""
+    },
+    "aspetto": "https://www.heroforge.com/load_share%3D930786/",
+    "alleati": [],
+    "organizzazioni": {
+        "nome": "",
+        "simbolo": ""
+    },
+    "storia": "",
+    "trattieprivilegiaggiuntivi": "",
+    "tesoro": ""
+}

@@ -1,0 +1,174 @@
+{
+    "nome": {
+        "nome": "Kim",
+        "cognome": "Impara l'arte e mettila da parte",
+        "soprannome": ""
+    },
+    "giocatore": "Carmine",
+    "origine": {
+        "razza": "Dragonide",
+        "classe": "Ladro",
+        "livello": "1",
+        "background": "Criminale",
+        "allineamento": "",
+        "puntiesperienza": 0
+    },
+    "statistiche": {
+        "forza": 0,
+        "destrezza": 0,
+        "costituzione": 0,
+        "intelligenza": 0,
+        "saggezza": 0,
+        "carisma": 0
+    },
+    "ispirazione": false,
+    "bonusdicompetenza": "",
+    "tirisalvezza": {
+        "forza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "destrezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "costituzione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intelligenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "saggezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "carisma": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "abilita": {
+        "acrobazia": {
+            "attivo": false,
+            "valore": 0
+        },
+        "addestramentoanimali": {
+            "attivo": false,
+            "valore": 0
+        },
+        "arcano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "atletica": {
+            "attivo": false,
+            "valore": 0
+        },
+        "furtivita": {
+            "attivo": false,
+            "valore": 0
+        },
+        "indagare": {
+            "attivo": false,
+            "valore": 0
+        },
+        "inganno": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intimidire": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intrattenere":{"attivo":false, "valore":0},
+        "intuizione":{"attivo":false, "valore":0},
+        "medicina": {
+            "attivo": false,
+            "valore": 0
+        },
+        "natura": {
+            "attivo": false,
+            "valore": 0
+        },
+        "percezione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "persuasione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "rapiditadimano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "religione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "sopravvivenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "storia": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "ca": "",
+    "iniziativa": "",
+    "velocita": "",
+    "puntiferita": {
+        "max": 0,
+        "attuali": 0,
+        "temp": 0
+    },
+    "dadivita": {
+        "totale": 0,
+        "attuale": 0
+    },
+    "tscontromorte": {
+        "success": 0,
+        "falliment": 0
+    },
+    "tratticaratteriali": "Il criminale impiega molto tempo a fidarsi di qualcuno. Ritiene che spesso proprio quelli che sembrano più onesti sono quelli che hanno più cose da nascondere",
+    "ideali": "Le catene devono essere spezzate e lo stesso vale per chi cerca di imporle agli altri",
+    "legami": "Al criminale è stato sottratto qualcosa di importante e il suo obiettivo è riprenderselo",
+    "difetti": "Quando il criminale mente, c'è qualcosa che rivela la sua bugia",
+    "attacchieincantesimi": [],
+    "saggezzapercezionepassiva": "",
+    "altrecompetenzeelinguaggi": [
+        "Affinità con l'elemento Aria",
+        "Specializzazione criminale: Assassino"
+    ],
+    "equipaggiamento": [],
+    "monete": {
+        "mr": 0,
+        "ma": 0,
+        "me": 0,
+        "mo": 0,
+        "mp": 0
+    },
+    "privilegietratti": [
+        "Un criminale conosce un contatto affidabile che funge da tramite tra lui e una rete di altri criminali. Il criminale sa come inviare e ricevere messaggi dal suo contatto, anche a grandi distanze; nello specifico, conosce i messaggeri locali, i mastri carovanieri corrotti e i marinai poco raccomandabili che trasmetteranno il messaggio per suo conto"
+    ],
+    "caratteristichefisiche": {
+        "eta": "",
+        "occhi": "",
+        "altezza": "",
+        "peso": "",
+        "carnagione": "",
+        "capelli": ""
+    },
+    "aspetto": "",
+    "alleati": [],
+    "organizzazioni": {
+        "nome": "",
+        "simbolo": ""
+    },
+    "storia": "",
+    "trattieprivilegiaggiuntivi": "",
+    "tesoro": ""
+}

@@ -1,0 +1,468 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://egregge.ddns.net:3000/dnd/scheme/schedaldelpersonaggio.json",
+    "title": "Scheda del personaggio",
+    "description": "Schedal del personaggio",
+    "type": "object",
+    "properties": {
+        "nome": {
+            "type": "object",
+            "properties": {
+                "nome": {
+                    "type": "string"
+                },
+                "cognome": {
+                    "type": "string"
+                },
+                "soprannome": {
+                    "type": "string"
+                }
+            }
+        },
+        "giocatore": {
+            "type": "string"
+        },
+        "origine": {
+            "type": "object",
+            "properties": {
+                "razza": {
+                    "type": "string"
+                },
+                "classe": {
+                    "type": "string"
+                },
+                "livello": {
+                    "type": "number"
+                },
+                "allineamento": {
+                    "type": "string"
+                },
+                "puntiesperienza": {
+                    "type": "number"
+                }
+            }
+        },
+        "statistiche": {
+            "type": "object",
+            "properties": {
+                "forza": {
+                    "type": "number"
+                },
+                "destrezza": {
+                    "type": "number"
+                },
+                "costituzione": {
+                    "type": "number"
+                },
+                "intelligenza": {
+                    "type": "number"
+                },
+                "saggezza": {
+                    "type": "number"
+                },
+                "carisma": {
+                    "type": "number"
+                }
+            }
+        },
+        "ispirazione": {
+            "type": "boolean"
+        },
+        "bonusdicompetenza": {
+            "type": "string"
+        },
+        "tirisalvezza": {
+            "type": "object",
+            "properties": {
+                "forza": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "destrezza": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "costituzione": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "intelligenza": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "saggezza": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "carisma": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                }
+            }
+        },
+        "abilita": {
+            "type": "object",
+            "properties": {
+                "acrobazia": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "addestramentoanimali": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "arcano": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "atletica": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "furtivita": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "indagare": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "inganno": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "intimidire": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "medicina": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "natura": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "percezione": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "persuasione": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "rapiditadimano": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "religione": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "sopravvivenza": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "storia": {
+                    "type": "object",
+                    "properties": {
+                        "attivo": {
+                            "type": "boolean"
+                        },
+                        "valore": {
+                            "type": "number"
+                        }
+                    }
+                }
+            }
+        },
+        "ca": {
+            "type": "string"
+        },
+        "iniziativa": {
+            "type": "string"
+        },
+        "velocita": {
+            "type": "string"
+        },
+        "puntiferita": {
+            "type": "object",
+            "properties": {
+                "maxpuntiferita": {
+                    "type": "string"
+                },
+                "puntiferitaattuali": {
+                    "type": "string"
+                },
+                "puntiferitatemp": {
+                    "type": "string"
+                }
+            }
+        },
+        "dadivita": {
+            "type": "object",
+            "properties": {
+                "dadivitatotale": {
+                    "type": "string"
+                },
+                "dadivitaattuale": {
+                    "type": "string"
+                }
+            }
+        },
+        "tscontromorte": {
+            "type": "object",
+            "properties": {
+                "success": {
+                    "type": "number"
+                },
+                "falliment": {
+                    "type": "number"
+                }
+            }
+        },
+        "tratticaratteriali": {
+            "type": "string"
+        },
+        "ideali": {
+            "type": "string"
+        },
+        "legami": {
+            "type": "string"
+        },
+        "difetti": {
+            "type": "string"
+        },
+        "attacchieincantesimi": {
+            "type": "array"
+        },
+        "saggezzapercezionepassiva": {
+            "type": "string"
+        },
+        "altrecompetenzeelinguaggi": {
+            "type": "array"
+        },
+        "equipaggiamento": {
+            "type": "array"
+        },
+        "monete": {
+            "type": "object",
+            "properties": {
+                "mr": {
+                    "type": "number"
+                },
+                "ma": {
+                    "type": "number"
+                },
+                "me": {
+                    "type": "number"
+                },
+                "mo": {
+                    "type": "number"
+                },
+                "mp": {
+                    "type": "number"
+                }
+            }
+        },
+        "privilegietratti": {
+            "type": "array"
+        },
+        "caratteristichefisiche": {
+            "type": "object",
+            "properties": {
+                "eta": {
+                    "type": "number"
+                },
+                "occhi": {
+                    "type": "string"
+                },
+                "altezza": {
+                    "type": "string"
+                },
+                "peso": {
+                    "type": "string"
+                },
+                "carnagione": {
+                    "type": "string"
+                },
+                "capelli": {
+                    "type": "string"
+                }
+            }
+        },
+        "aspetto": {
+            "type": "string"
+        },
+        "alleati": {
+            "type": "array"
+        },
+        "organizzazioni": {
+            "type": "object",
+            "properties": {
+                "nome": {
+                    "type": "string"
+                },
+                "simbolo": {
+                    "type": "string"
+                }
+            }
+        },
+        "storia": {
+            "type": "string"
+        },
+        "trattieprivilegiaggiuntivi": {
+            "type": "string"
+        },
+        "tesoro": {
+            "type": "string"
+        }
+    }
+}

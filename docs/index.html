@@ -1,0 +1,516 @@
+<html>
+    <head>
+        <style>
+            *{margin: 0;padding: 0;overflow: hidden;}
+            #schedadelpersonaggio{
+                width: 100vw;
+                height: 100vh;
+            }
+            .scrollable {
+                height: 100%;
+                overflow-y: auto;
+            }
+            .scrollableh {
+                width: 100%;
+                overflow-x: auto;
+            }
+            .nowrap {text-wrap: nowrap;}
+            /* p, table, div {background-color: aqua;} */
+        </style>
+        <!-- <script src="https://raw.githubusercontent.com/bumbu/svg-pan-zoom/master/dist/svg-pan-zoom.min.js"></script> -->
+        <title id="title"></title>
+    </head>
+    <body>
+        <!-- <image xlink:href="https://egregge.ddns.net/assets/dnd_1.jpg"></image> -->
+        <!-- <rect x="105" y="90" width="400" height="80" fill="transparent" stroke="none">
+        </rect> -->
+        <svg id="schedadelpersonaggio" viewBox="0 0 1238 1632">
+            <image xlink:href="https://egregge.ddns.net/assets/dnd_1.jpg"></image>
+            <foreignObject x="105" y="112" width="400" height="65">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="nomepersonaggio" class="scrollableh nowrap" style="font-size: 40;"></p>
+            </foreignObject>
+            <foreignObject x="555" y="90" width="200" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="classeelivello" style="font-size: 24;"></p>
+            </foreignObject>
+            <foreignObject x="790" y="90" width="190" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="background" style="font-size: 24;"></p>
+            </foreignObject>
+            <foreignObject x="990" y="90" width="180" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="nomegiocatore" style="font-size: 24;"></p>
+            </foreignObject>
+            <foreignObject x="555" y="145" width="200" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="razza" style="font-size: 24;"></p>
+            </foreignObject>
+            <foreignObject x="790" y="145" width="190" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="allineamento" style="font-size: 24;"></p>
+            </foreignObject>
+            <foreignObject x="990" y="145" width="180" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="puntiesperienza" style="font-size: 24;"></p>
+            </foreignObject>
+            <!-- Statistiche -->
+            <foreignObject x="85" y="375" width="40" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="forza" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="85" y="525" width="40" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="destrezza" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="85" y="673" width="40" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="costituzione" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="85" y="822" width="40" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="intelligenza" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="85" y="973" width="40" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="saggezza" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="85" y="1120" width="40" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="carisma" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- Ispirazione e bonus di competenza -->
+            <foreignObject x="180" y="255" width="60" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="ispirazione" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="180" y="335" width="60" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="bonusdicompetenza" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- TS -->
+            <circle cx="201" cy="426" r="6" fill="transparent" id="tirisalvezzaforzaa"></circle>
+            <foreignObject x="215" y="410" width="35" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzaforzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="454" r="6" fill="transparent" id="tirisalvezzadestrezzaa"></circle>
+            <foreignObject x="215" y="440" width="35" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzadestrezzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="482" r="6" fill="transparent" id="tirisalvezzacostituzionea"></circle>
+            <foreignObject x="215" y="467" width="35" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzacostituzionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="510" r="6" fill="transparent" id="tirisalvezzaintelligenzaa"></circle>
+            <foreignObject x="215" y="495" width="35" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzaintelligenzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="539" r="6" fill="transparent" id="tirisalvezzasaggezzaa"></circle>
+            <foreignObject x="215" y="525" width="35" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzasaggezzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="567" r="6" fill="transparent" id="tirisalvezzacarismaa"></circle>
+            <foreignObject x="215" y="550" width="35" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzacarismav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- Abilità -->
+            <circle cx="201" cy="666" r="6" id="abilitaacrobaziaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="651">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaacrobaziav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="696" r="6" id="abilitaaddestramentoanimalia" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="681">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaaddestramentoanimaliv" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="722" r="6" id="abilitaarcanoa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="707"> 
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaarcanov" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="751" r="6" id="abilitaatleticaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="736">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaatleticav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="780" r="6" id="abilitafurtivitaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="765">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitafurtivitav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="807" r="6" id="abilitaindagarea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="792">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaindagarev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="836" r="6" id="abilitaingannoa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="821">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaingannov" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="864" r="6" id="abilitaintimidirea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="849">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintimidirev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="893" r="6" id="abilitaintrattenerea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="878">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintrattenerev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="920" r="6" id="abilitaintuizionea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="905">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintuizionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="949" r="6" id="abilitamedicinaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="934">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitamedicinav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="977" r="6" id="abilitanaturaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="962">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitanaturav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="1005" r="6" id="abilitapercezionea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="990">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitapercezionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="1032" r="6" id="abilitapersuasionea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="1017">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitapersuasionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="1060" r="6" id="abilitarapiditadimanoa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="1045">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitarapiditadimanov" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="1088" r="6" id="abilitareligionea" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="1073">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitareligionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="1116" r="6" id="abilitasopravvivenzaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="1101">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitasopravvivenzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+
+            <circle cx="201" cy="1145" r="6" id="abilitastoriaa" fill="black"></circle>
+            <foreignObject width="35" height="64" x="215" y="1130">
+                <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitastoriav" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- CA, iniziativa e velocità -->
+            <foreignObject x="470" y="290" width="60" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="ca" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="580" y="290" width="80" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="iniziativa" style="font-size: 40;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="700" y="290" width="80" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="velocita" style="font-size: 40;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- Punti ferita -->
+            <foreignObject x="470" y="440" width="310" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitaatt" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="620" y="385" width="160" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitamax" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="470" y="555" width="310" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitatemp" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- Dadi Vita -->
+            <foreignObject x="505" y="643" width="100" height="32">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="dadivitatot" style="font-size: 24;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="465" y="680" width="140" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="dadivitaatt" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- Tiri salvezza contro morte -->
+            <circle cx="716" cy="666" r="10" id="tscontromortes0"></circle>
+            <circle cx="742" cy="666" r="10" id="tscontromortes1"></circle>
+            <circle cx="769" cy="666" r="10" id="tscontromortes2"></circle>
+            <circle cx="716" cy="697" r="10" id="tscontromortef0"></circle>
+            <circle cx="742" cy="697" r="10" id="tscontromortef1"></circle>
+            <circle cx="769" cy="697" r="10" id="tscontromortef2"></circle>
+            <!-- saggezza (percezione) passiva -->
+            <foreignObject x="50" y="1215" width="50" height="64">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="saggezzapercezionepassiva" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <!-- tratticaratteriali, ideali, legami e difetti -->
+            <foreignObject x="853" y="290" width="330" height="90">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="tratticaratteriali" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+            </foreignObject>
+            <foreignObject x="853" y="420" width="330" height="90">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="ideali" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+            </foreignObject>
+            <foreignObject x="853" y="530" width="330" height="80">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="legami" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+            </foreignObject>
+            <foreignObject x="853" y="645" width="330" height="80">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="difetti" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+            </foreignObject>
+            <!-- attacchi e incantesimi -->
+            <foreignObject x="450" y="785" width="350" height="385">
+                <table xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; overflow-y: scroll;">
+                    <thead>
+                        <tr>
+                            <th><span style="font-size: 24;justify-content: center;display: flex;">Nome</span></th>
+                            <th><span style="font-size: 24;justify-content: center;display: flex;">Bonus Att</span></th>
+                            <th><span style="font-size: 24;justify-content: center;display: flex;">Danni/Tipo</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="attacchieincantesimi">
+                    </tbody>
+                </table>
+            </foreignObject>
+            <!-- privilegi e tratti -->
+            <foreignObject x="840" y="785" width="350" height="775">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="privilegietratti">
+                    
+                </div>
+            </foreignObject>
+            <!-- altre competenze -->
+            <foreignObject x="60" y="1300" width="340" height="260">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="altrecompetenzeelinguaggi">
+                    
+                </div>
+            </foreignObject>
+            <!-- equipaggiamento -->
+            <foreignObject x="545" y="1230" width="250" height="330">
+                <table xmlns="http://www.w3.org/1999/xhtml">
+                    <!-- <thead>
+                        <tr>
+                            <th style="font-size: 24;">Quantità</th>
+                            <th style="font-size: 24;">Oggetto</th>
+                        </tr>
+                    </thead> -->
+                    <tbody  id="equipaggiamento">
+
+                    </tbody>
+                </table>
+            </foreignObject>
+            <!-- Monete -->
+            <foreignObject x="465" y="1232" width="60" height="72">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="mr" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="465" y="1286" width="60" height="72">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="ma" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="465" y="1341" width="60" height="72">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="me" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="465" y="1395" width="60" height="72">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="mo" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+            <foreignObject x="465" y="1449" width="60" height="72">
+                <p xmlns="http://www.w3.org/1999/xhtml" id="mp" style="font-size: 35;justify-content: center;display: flex;"></p>
+            </foreignObject>
+        </svg>
+        <!-- <script src="/socket.io/socket.io.js"></script> -->
+        <script src="../assets/svg-pan-zoom.min.js"></script>
+        <script type="module">
+            var canv = document.getElementById("schedadelpersonaggio")
+            
+            var zoom = svgPanZoom(canv, {
+                minZoom: 1,
+                maxZoom: 10,
+                fit: true,
+                dblClickZoomEnabled: false,
+                mouseWheelZoomEnabled: true,
+                zoomScaleSensitivity: 0.2
+            })
+            function MaxChar(char, str) {
+                if (str.length>char) {
+                    return str.slice(0,Math.max(0, char-3))+"..."
+                }
+                return str
+            }
+            function maxpixel(ele,pixel, str) {
+                ele.innerHTML=str
+            }
+            // console.log(zoom)
+            var charname = window.location.pathname.slice("/dnd/schedadelpersonaggio/".length)
+            window.location.href
+            function updateData(data) {
+                console.log(data)
+                document.getElementById("nomepersonaggio").innerHTML=data.nome.nome+" "+data.nome.cognome
+                document.getElementById("title").innerHTML=data.nome.nome+" "+data.nome.cognome
+                
+                document.getElementById("classeelivello").innerHTML=data.origine.classe+" "+data.origine.livello
+                document.getElementById("background").innerHTML=data.origine.background
+                document.getElementById("nomegiocatore").innerHTML=data.giocatore
+                document.getElementById("razza").innerHTML=data.origine.razza
+                document.getElementById("allineamento").innerHTML=data.origine.allineamento
+                document.getElementById("puntiesperienza").innerHTML=data.origine.puntiesperienza+" PE"
+                
+                document.getElementById("forza").innerHTML=data.statistiche.forza
+                document.getElementById("destrezza").innerHTML=data.statistiche.destrezza
+                document.getElementById("costituzione").innerHTML=data.statistiche.costituzione
+                document.getElementById("intelligenza").innerHTML=data.statistiche.intelligenza
+                document.getElementById("saggezza").innerHTML=data.statistiche.saggezza
+                document.getElementById("carisma").innerHTML=data.statistiche.carisma
+            
+                document.getElementById("ispirazione").innerHTML=data.ispirazione?"Si":"No"
+                document.getElementById("bonusdicompetenza").innerHTML=data.bonusdicompetenza
+                
+                document.getElementById("tirisalvezzaforzav").innerHTML=data.tirisalvezza.forza.valore
+                document.getElementById("tirisalvezzadestrezzav").innerHTML=data.tirisalvezza.destrezza.valore
+                document.getElementById("tirisalvezzacostituzionev").innerHTML=data.tirisalvezza.costituzione.valore
+                document.getElementById("tirisalvezzaintelligenzav").innerHTML=data.tirisalvezza.intelligenza.valore
+                document.getElementById("tirisalvezzasaggezzav").innerHTML=data.tirisalvezza.saggezza.valore
+                document.getElementById("tirisalvezzacarismav").innerHTML=data.tirisalvezza.carisma.valore
+            
+                document.getElementById("tirisalvezzaforzaa").setAttribute("fill",data.tirisalvezza.forza.attivo?"black":"transparent")
+                document.getElementById("tirisalvezzadestrezzaa").setAttribute("fill",data.tirisalvezza.destrezza.attivo?"black":"transparent")
+                document.getElementById("tirisalvezzacostituzionea").setAttribute("fill",data.tirisalvezza.costituzione.attivo?"black":"transparent")
+                document.getElementById("tirisalvezzaintelligenzaa").setAttribute("fill",data.tirisalvezza.intelligenza.attivo?"black":"transparent")
+                document.getElementById("tirisalvezzasaggezzaa").setAttribute("fill",data.tirisalvezza.saggezza.attivo?"black":"transparent")
+                document.getElementById("tirisalvezzacarismaa").setAttribute("fill",data.tirisalvezza.carisma.attivo?"black":"transparent")
+
+                document.getElementById("abilitaacrobaziaa").setAttribute("fill",data.abilita.acrobazia.attivo?"black":"transparent")
+                document.getElementById("abilitaaddestramentoanimalia").setAttribute("fill",data.abilita.addestramentoanimali.attivo?"black":"transparent")
+                document.getElementById("abilitaarcanoa").setAttribute("fill",data.abilita.arcano.attivo?"black":"transparent")
+                document.getElementById("abilitaatleticaa").setAttribute("fill",data.abilita.atletica.attivo?"black":"transparent")
+                document.getElementById("abilitafurtivitaa").setAttribute("fill",data.abilita.furtivita.attivo?"black":"transparent")
+                document.getElementById("abilitaindagarea").setAttribute("fill",data.abilita.indagare.attivo?"black":"transparent")
+                document.getElementById("abilitaingannoa").setAttribute("fill",data.abilita.inganno.attivo?"black":"transparent")
+                document.getElementById("abilitaintimidirea").setAttribute("fill",data.abilita.intimidire.attivo?"black":"transparent")
+                document.getElementById("abilitaintrattenerea").setAttribute("fill",data.abilita.intrattenere.attivo?"black":"transparent")
+                document.getElementById("abilitaintuizionea").setAttribute("fill",data.abilita.intuizione.attivo?"black":"transparent")
+                document.getElementById("abilitamedicinaa").setAttribute("fill",data.abilita.medicina.attivo?"black":"transparent")
+                document.getElementById("abilitanaturaa").setAttribute("fill",data.abilita.natura.attivo?"black":"transparent")
+                document.getElementById("abilitapercezionea").setAttribute("fill",data.abilita.percezione.attivo?"black":"transparent")
+                document.getElementById("abilitapersuasionea").setAttribute("fill",data.abilita.persuasione.attivo?"black":"transparent")
+                document.getElementById("abilitarapiditadimanoa").setAttribute("fill",data.abilita.rapiditadimano.attivo?"black":"transparent")
+                document.getElementById("abilitareligionea").setAttribute("fill",data.abilita.religione.attivo?"black":"transparent")
+                document.getElementById("abilitasopravvivenzaa").setAttribute("fill",data.abilita.sopravvivenza.attivo?"black":"transparent")
+                document.getElementById("abilitastoriaa").setAttribute("fill",data.abilita.storia.attivo?"black":"transparent")
+
+                document.getElementById("abilitaacrobaziav").innerHTML=data.abilita.acrobazia.valore
+                document.getElementById("abilitaaddestramentoanimaliv").innerHTML=data.abilita.addestramentoanimali.valore
+                document.getElementById("abilitaarcanov").innerHTML=data.abilita.arcano.valore
+                document.getElementById("abilitaatleticav").innerHTML=data.abilita.atletica.valore
+                document.getElementById("abilitafurtivitav").innerHTML=data.abilita.furtivita.valore
+                document.getElementById("abilitaindagarev").innerHTML=data.abilita.indagare.valore
+                document.getElementById("abilitaingannov").innerHTML=data.abilita.inganno.valore
+                document.getElementById("abilitaintimidirev").innerHTML=data.abilita.intimidire.valore
+                document.getElementById("abilitaintrattenerev").innerHTML=data.abilita.intrattenere.valore
+                document.getElementById("abilitaintuizionev").innerHTML=data.abilita.intuizione.valore
+                document.getElementById("abilitamedicinav").innerHTML=data.abilita.medicina.valore
+                document.getElementById("abilitanaturav").innerHTML=data.abilita.natura.valore
+                document.getElementById("abilitapercezionev").innerHTML=data.abilita.percezione.valore
+                document.getElementById("abilitapersuasionev").innerHTML=data.abilita.persuasione.valore
+                document.getElementById("abilitarapiditadimanov").innerHTML=data.abilita.rapiditadimano.valore
+                document.getElementById("abilitareligionev").innerHTML=data.abilita.religione.valore
+                document.getElementById("abilitasopravvivenzav").innerHTML=data.abilita.sopravvivenza.valore
+                document.getElementById("abilitastoriav").innerHTML=data.abilita.storia.valore
+                
+                document.getElementById("ca").innerHTML=data.ca
+                document.getElementById("iniziativa").innerHTML=data.iniziativa
+                document.getElementById("velocita").innerHTML=data.velocita
+                
+                document.getElementById("puntiferitaatt").innerHTML=data.puntiferita.max
+                document.getElementById("puntiferitamax").innerHTML=data.puntiferita.attuali
+                document.getElementById("puntiferitatemp").innerHTML=data.puntiferita.temp>0?data.puntiferita.temp:""
+                
+                document.getElementById("dadivitatot").innerHTML=data.dadivita.totale
+                document.getElementById("dadivitaatt").innerHTML=data.dadivita.attuale
+
+                document.getElementById("tscontromortes0").setAttribute("fill","transparent")
+                document.getElementById("tscontromortes1").setAttribute("fill","transparent")
+                document.getElementById("tscontromortes2").setAttribute("fill","transparent")
+
+                document.getElementById("tscontromortef0").setAttribute("fill","transparent")
+                document.getElementById("tscontromortef1").setAttribute("fill","transparent")
+                document.getElementById("tscontromortef2").setAttribute("fill","transparent")
+                for (var i =0; i<data.tscontromorte.success;i++) {
+                    document.getElementById("tscontromortes"+i).setAttribute("fill", "black")
+                }
+                for (var i =0; i<data.tscontromorte.falliment;i++) {
+                    document.getElementById("tscontromortef"+i).setAttribute("fill", "black")
+                }
+
+                document.getElementById("saggezzapercezionepassiva").innerHTML=data.saggezzapercezionepassiva
+                document.getElementById("tratticaratteriali").innerHTML=data.tratticaratteriali
+                document.getElementById("ideali").innerHTML=data.ideali
+                document.getElementById("legami").innerHTML=data.legami
+                document.getElementById("difetti").innerHTML=data.difetti
+                
+                for (var ele in data.attacchieincantesimi) {
+                    var tr = document.createElement("tr")
+                    var tdn = document.createElement("td")
+                    var tdb = document.createElement("td")
+                    var tdd = document.createElement("td")
+                    var sn = document.createElement("span")
+                    sn.innerHTML=ele.nome
+                    tdn.appendChild(sn)
+
+                    var sb = document.createElement("span")
+                    sb.innerHTML=ele.bonusatt
+                    sb.style.fontSize="24px"
+                    sb.style.justifyContent="center"
+                    sb.style.display="flex"
+                    tdb.appendChild(sb)
+
+                    var sd = document.createElement("span")
+                    sd.innerHTML=ele.dannitipo
+                    sd.style.fontSize="24px"
+                    sd.style.justifyContent="center"
+                    sd.style.display="flex"
+                    tdd.appendChild(sd)
+
+                    tr.appendChild(tdn)
+                    tr.appendChild(tdb)
+                    tr.appendChild(tdd)
+
+                    document.getElementById("attacchieincantesimi").appendChild(tr)
+                }
+
+                for (var i in data.privilegietratti) {
+                    var ele = data.privilegietratti[i]
+                    // var tr = document.createElement("tr")
+                    // var td = document.createElement("td")
+                    var p = document.createElement("p")
+                    p.innerHTML=ele
+                    // td.appendChild(p)
+                    // tr.appendChild(td)
+                    document.getElementById("privilegietratti").appendChild(p)
+                }
+                for (var i in data.altrecompetenzeelinguaggi) {
+                    var ele = data.altrecompetenzeelinguaggi[i]
+                    //var tr = document.createElement("tr")
+                    //var td = document.createElement("td")
+                    var span = document.createElement("p")
+                    span.innerHTML=ele
+                    //td.appendChild(span)
+                    //tr.appendChild(td)
+                    document.getElementById("altrecompetenzeelinguaggi").appendChild(span)
+                }
+                for (var i in data.equipaggiamento) {
+                    var ele = data.equipaggiamento[i]
+                    var tr = document.createElement("tr")
+                    
+                    var tdq = document.createElement("tdq")
+                    var spanq = document.createElement("span")
+                    spanq.innerHTML=ele.quantita+"x"
+                    spanq.style.fontSize="24px"
+                    spanq.style.justifyContent="center"
+                    spanq.style.display="flex"
+                    tdq.appendChild(spanq)
+
+                    var tdn = document.createElement("tdn")
+                    var spann = document.createElement("span")
+                    spann.innerHTML=ele.nome
+                    spann.style.fontSize="24px"
+                    spann.style.justifyContent="center"
+                    spann.style.display="flex"
+                    tdn.appendChild(spann)
+                    
+                    tr.appendChild(tdq)
+                    tr.appendChild(tdn)
+                    document.getElementById("equipaggiamento").appendChild(tr)
+                }
+                document.getElementById("mr").innerHTML=data.monete.mr
+                document.getElementById("ma").innerHTML=data.monete.ma
+                document.getElementById("me").innerHTML=data.monete.me
+                document.getElementById("mo").innerHTML=data.monete.mo
+                document.getElementById("mp").innerHTML=data.monete.mp
+            }
+        </script>
+    </body>
+</html>

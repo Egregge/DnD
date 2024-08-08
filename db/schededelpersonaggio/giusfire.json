@@ -1,0 +1,179 @@
+{
+    "nome": {
+        "nome": "Gius",
+        "cognome": "Fire",
+        "soprannome": ""
+    },
+    "giocatore": "Giusfire",
+    "origine": {
+        "razza": "Halfling",
+        "classe": "Ladro",
+        "livello": "1",
+        "background": "Criminale",
+        "allineamento": "",
+        "puntiesperienza": 0
+    },
+    "statistiche": {
+        "forza": 13,
+        "destrezza": 15,
+        "costituzione": 16,
+        "intelligenza": 14,
+        "saggezza": 15,
+        "carisma": 16
+    },
+    "ispirazione": false,
+    "bonusdicompetenza": "",
+    "tirisalvezza": {
+        "forza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "destrezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "costituzione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intelligenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "saggezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "carisma": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "abilita": {
+        "acrobazia": {
+            "attivo": true,
+            "valore": 0
+        },
+        "addestramentoanimali": {
+            "attivo": false,
+            "valore": 0
+        },
+        "arcano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "atletica": {
+            "attivo": false,
+            "valore": 0
+        },
+        "furtivita": {
+            "attivo": true,
+            "valore": 0
+        },
+        "indagare": {
+            "attivo": false,
+            "valore": 0
+        },
+        "inganno": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intimidire": {
+            "attivo": true,
+            "valore": 0
+        },
+        "intrattenere": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intuizione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "medicina": {
+            "attivo": false,
+            "valore": 0
+        },
+        "natura": {
+            "attivo": false,
+            "valore": 0
+        },
+        "percezione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "persuasione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "rapiditadimano": {
+            "attivo": true,
+            "valore": 0
+        },
+        "religione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "sopravvivenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "storia": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "ca": "",
+    "iniziativa": "",
+    "velocita": "",
+    "puntiferita": {
+        "max": 0,
+        "attuali": 0,
+        "temp": 0
+    },
+    "dadivita": {
+        "totale": 0,
+        "attuale": 0
+    },
+    "tscontromorte": {
+        "success": 0,
+        "falliment": 0
+    },
+    "tratticaratteriali": "Essere un tipo molto silenzioso parlando ovviamente solo nelle situazioni di bisogno, mantiene sempre la calma e non lascia mai che le sue emozioni possano prendere il sopravvento",
+    "ideali": "Essere un criminale leale solo con i suoi amici, mentre il resto all'infuori di essi non gli importa nulla",
+    "legami": "Recuperare ciò che qualcuno o qualcosa gli ha sottratto, la pace e la tranquillità in cui viveva in armonia col suo habitat lontano dai pericoli ",
+    "difetti": "Quando si organizza un piano, il criminale spesso si dimentica di esso, nel raro caso in cui non lo dimenticasse, se ne fregherebbe comunque ",
+    "attacchieincantesimi": [],
+    "saggezzapercezionepassiva": "",
+    "altrecompetenzeelinguaggi": [
+        "Affinità con l'elemento fuoco"
+    ],
+    "equipaggiamento": [],
+    "monete": {
+        "mr": 0,
+        "ma": 0,
+        "me": 0,
+        "mo": 0,
+        "mp": 0
+    },
+    "privilegietratti": [
+        "Un criminale conosce un contatto affidabile che funge da tramite tra lui e una rete di altri criminali. Il criminale sa come inviare e ricevere messaggi dal suo contatto, anche a grandi distanze; nello specifico, conosce i messaggeri locali, i mastri carovanieri corrotti e i marinai poco raccomandabili che trasmetteranno il messaggio per suo conto"
+    ],
+    "caratteristichefisiche": {
+        "eta": "",
+        "occhi": "",
+        "altezza": "95",
+        "peso": "9",
+        "carnagione": "",
+        "capelli": ""
+    },
+    "aspetto": "",
+    "alleati": [],
+    "organizzazioni": {
+        "nome": "",
+        "simbolo": ""
+    },
+    "storia": "",
+    "trattieprivilegiaggiuntivi": "",
+    "tesoro": ""
+}

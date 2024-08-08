@@ -1,0 +1,182 @@
+{
+    "nome": {
+        "nome": "Arte",
+        "cognome": "Viva Filangieri",
+        "soprannome": ""
+    },
+    "giocatore": "Rocco Vitale",
+    "origine": {
+        "razza": "Halfling",
+        "classe": "Ranger",
+        "livello": "1",
+        "background": "Intrattenitore",
+        "allineamento": "",
+        "puntiesperienza": 0
+    },
+    "statistiche": {
+        "forza": 12,
+        "destrezza": 17,
+        "costituzione": 16,
+        "intelligenza": 13,
+        "saggezza": 10,
+        "carisma": 13
+    },
+    "ispirazione": false,
+    "bonusdicompetenza": "",
+    "tirisalvezza": {
+        "forza": {
+            "attivo": true,
+            "valore": 0
+        },
+        "destrezza": {
+            "attivo": true,
+            "valore": 0
+        },
+        "costituzione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intelligenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "saggezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "carisma": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "abilita": {
+        "acrobazia": {
+            "attivo": false,
+            "valore": 0
+        },
+        "addestramentoanimali": {
+            "attivo": false,
+            "valore": 0
+        },
+        "arcano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "atletica": {
+            "attivo": true,
+            "valore": 0
+        },
+        "furtivita": {
+            "attivo": false,
+            "valore": 0
+        },
+        "indagare": {
+            "attivo": false,
+            "valore": 0
+        },
+        "inganno": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intimidire": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intrattenere": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intuizione": {
+            "attivo": true,
+            "valore": 0
+        },
+        "medicina": {
+            "attivo": false,
+            "valore": 0
+        },
+        "natura": {
+            "attivo": false,
+            "valore": 0
+        },
+        "percezione": {
+            "attivo": true,
+            "valore": 0
+        },
+        "persuasione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "rapiditadimano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "religione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "sopravvivenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "storia": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "ca": "",
+    "iniziativa": "",
+    "velocita": "",
+    "puntiferita": {
+        "max": 10,
+        "attuali": 0,
+        "temp": 0
+    },
+    "dadivita": {
+        "totale": 10,
+        "attuale": 10
+    },
+    "tscontromorte": {
+        "success": 0,
+        "falliment": 0
+    },
+    "tratticaratteriali": "Nessuno rimane arrabbiato a lungo con l'Intrattenitore o con i suoi compagni, perchè egli è in grado di allentare facilmente ogni tensione",
+    "ideali": "L'Intrattenitore ama vedere i sorrisi sul volto della gente quando si esibisce. è l'unica cosa che conta",
+    "legami": "L'Intrattenitore farebbe qualsiasi cosa per i membri della sua vecchia compagnia di artisti",
+    "difetti": "Una volta l'intrattenitore ha ridicolizzato un nobile che oggi vuole la sua testa. Sa di avere commesso un errore e che probabilmente lo farà di nuovo",
+    "attacchieincantesimi": [],
+    "saggezzapercezionepassiva": "",
+    "altrecompetenzeelinguaggi": [
+        "Affinità con l'elemento roccia",
+        "Esperto nella disciplina artistica: Attore",
+        "Esperto nella disciplina artistica: Acrobata",
+        "Esperto nella disciplina artistica: Cantore"
+    ],
+    "equipaggiamento": [],
+    "monete": {
+        "mr": 0,
+        "ma": 0,
+        "me": 0,
+        "mo": 0,
+        "mp": 0
+    },
+    "privilegietratti": [
+        "A Grande richiesta. Un intrattenitore riesce sempre a trovare un luogo in cui esibirsi, solitamente una locanda o una taverna, ma a volte anche un circo, un teatro o addirittura una corte nobiliare. Di conseguenza, in questi luoghi riceve gratuitamente vitto e alloggio di tenore modesto o agiato (in base alla qualità del locale), purchè l'intrattenitore possa esibirsi ogni notte. Inoltre l'esibizione fa dell'intrattenitore una sorta di celebrità locale. Quando gli stranieri lo riconoscono in una città in cui si è esibito, solitamente lo ammirano"
+    ],
+    "caratteristichefisiche": {
+        "eta": "",
+        "occhi": "",
+        "altezza": "95",
+        "peso": "9",
+        "carnagione": "",
+        "capelli": ""
+    },
+    "aspetto": "",
+    "alleati": [],
+    "organizzazioni": {
+        "nome": "",
+        "simbolo": ""
+    },
+    "storia": "",
+    "trattieprivilegiaggiuntivi": "",
+    "tesoro": ""
+}

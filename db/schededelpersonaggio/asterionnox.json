@@ -1,0 +1,180 @@
+{
+    "nome": {
+        "nome": "Asterion",
+        "cognome": "Nox",
+        "soprannome": ""
+    },
+    "giocatore": "MaryBlack",
+    "origine": {
+        "razza": "Centauro",
+        "classe": "Ranger",
+        "livello": "1",
+        "background": "Forestiero",
+        "allineamento": "",
+        "puntiesperienza": 0
+    },
+    "statistiche": {
+        "forza": 12,
+        "destrezza": 13,
+        "costituzione": 14,
+        "intelligenza": 14,
+        "saggezza": 10,
+        "carisma": 10
+    },
+    "ispirazione": false,
+    "bonusdicompetenza": "",
+    "tirisalvezza": {
+        "forza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "destrezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "costituzione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intelligenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "saggezza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "carisma": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "abilita": {
+        "acrobazia": {
+            "attivo": false,
+            "valore": 0
+        },
+        "addestramentoanimali": {
+            "attivo": false,
+            "valore": 0
+        },
+        "arcano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "atletica": {
+            "attivo": false,
+            "valore": 0
+        },
+        "furtivita": {
+            "attivo": false,
+            "valore": 0
+        },
+        "indagare": {
+            "attivo": true,
+            "valore": 0
+        },
+        "inganno": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intimidire": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intrattenere": {
+            "attivo": false,
+            "valore": 0
+        },
+        "intuizione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "medicina": {
+            "attivo": false,
+            "valore": 0
+        },
+        "natura": {
+            "attivo": true,
+            "valore": 0
+        },
+        "percezione": {
+            "attivo": true,
+            "valore": 0
+        },
+        "persuasione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "rapiditadimano": {
+            "attivo": false,
+            "valore": 0
+        },
+        "religione": {
+            "attivo": false,
+            "valore": 0
+        },
+        "sopravvivenza": {
+            "attivo": false,
+            "valore": 0
+        },
+        "storia": {
+            "attivo": false,
+            "valore": 0
+        }
+    },
+    "ca": "",
+    "iniziativa": "",
+    "velocita": "",
+    "puntiferita": {
+        "max": 10,
+        "attuali": 10,
+        "temp": 0
+    },
+    "dadivita": {
+        "totale": 10,
+        "attuale": 10
+    },
+    "tscontromorte": {
+        "success": 0,
+        "falliment": 0
+    },
+    "tratticaratteriali": "Il forestiero impara una lezione da ogni situazione che osserva nel mondo naturale",
+    "ideali": "Chi disonora se stesso disonora l'intero clan",
+    "legami": "Il forestiero è l'ultimo della sua tribù e deve fare in modo che il nome di quella tribù entri nella leggenda",
+    "difetti": "Il forestiero ha difficoltà a fidarsi dei membri delle altre tribù, razze o società",
+    "attacchieincantesimi": [],
+    "saggezzapercezionepassiva": "",
+    "altrecompetenzeelinguaggi": [
+        "Affinità con l'elemento Erba",
+        "Cacciatore di taglie"
+    ],
+    "equipaggiamento": [],
+    "monete": {
+        "mr": 0,
+        "ma": 0,
+        "me": 0,
+        "mo": 0,
+        "mp": 0
+    },
+    "privilegietratti": [
+        "Il forestiero ha un'ottima memoria geografica e uno spiccato senso dell'orientamento: riesce sempre a ricordare la disposizione generale del territorio, degli insediamenti e degli altri punti di riferimento attorno a lui. Inoltre è in grado di trovare cibo e acqua fresca per se stesso per un massimo di altre cinque persone ogni giorno, purchè il territorio offra bacche, selvaggina, acqua e così via"
+    ],
+    "caratteristichefisiche": {
+        "eta": "",
+        "occhi": "",
+        "altezza": "",
+        "peso": "",
+        "carnagione": "",
+        "capelli": ""
+    },
+    "aspetto": "https://www.heroforge.com/load_config%3D520308556/",
+    "alleati": [],
+    "organizzazioni": {
+        "nome": "",
+        "simbolo": ""
+    },
+    "storia": "",
+    "trattieprivilegiaggiuntivi": "",
+    "tesoro": ""
+}
