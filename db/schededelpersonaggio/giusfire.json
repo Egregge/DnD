@@ -83,7 +83,7 @@
             "valore": 0
         },
         "inganno": {
-            "attivo": false,
+            "attivo": true,
             "valore": 0
         },
         "intimidire": {
@@ -156,12 +156,23 @@
     "altrecompetenzeelinguaggi": [
         "Affinità con l'elemento fuoco"
     ],
-    "equipaggiamento": [],
+    "equipaggiamento": [
+      {"quantita": 1, "nome": "spada corta"},
+      {"quantita": 1, "nome": "arco corto"},
+{"quantita": 1, "nome": "faretra"},
+{"quantita": 20, "nome": "frecce"},
+{"quantita": 1, "nome": "dotazione da scassinatore"},
+{"quantita": 1, "nome": "armatura di cuoio"},
+{"quantita": 1, "nome": "arensi da scasso"},
+{"quantita": 1, "nome": "piede di porco"},
+{"quantita": 1, "nome": "abito comune comprensivo di cappuccio"},
+{"quantita": 1, "nome": "una borsa"},
+    ],
     "monete": {
         "mr": 0,
         "ma": 0,
         "me": 0,
-        "mo": 100,
+        "mo": 115,
         "mp": 0
     },
     "privilegietratti": [
