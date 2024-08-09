@@ -159,12 +159,20 @@
         "Esperto nella disciplina artistica: Acrobata",
         "Esperto nella disciplina artistica: Cantore"
     ],
-    "equipaggiamento": [],
+    "equipaggiamento": [
+{"quantita": 1, "nome": "bastone"},
+{"quantita": 1, "nome": "tagliola"},
+{"quantita": 1, "nome": "abito da viaggiatore"},
+{"quantita": 1, "nome": "trofeo animale ucciso"},
+{"quantita": 1, "nome": "borsa"},
+{"quantita": 1, "nome": "pugnale"},
+{"quantita": 1, "nome": "balestra"},
+],
     "monete": {
         "mr": 0,
         "ma": 0,
         "me": 0,
-        "mo": 70,
+        "mo": 85,
         "mp": 0
     },
     "privilegietratti": [
