@@ -22,11 +22,11 @@
         "carisma": 11
     },
     "modificatorestatistica":{
-        "forza": 0,
-        "destrezza": 0,
-        "costituzione": 0,
-        "intelligenza": 0,
-        "saggezza": 0,
+        "forza": 2,
+        "destrezza": 1,
+        "costituzione": -1,
+        "intelligenza": 2,
+        "saggezza": 3,
         "carisma": 0
     },
     "ispirazione": false,
