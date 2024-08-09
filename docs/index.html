@@ -3,7 +3,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <style>
             *{margin: 0;padding: 0;overflow: hidden;}
-            #schedadelpersonaggio{
+            body {width: 100vw; height: 100vh;display: flex;}
+            #schedadelpersonaggio {
                 width: 100vw;
                 height: 100vh;
             }
@@ -33,285 +34,287 @@
             <option value="giusfire.json">GiusFire</option>
             <option value="kimimparalarteemettiladaparte.json">Kim Impara l'arte e mettila da parte</option>
         </select>
-        <svg id="schedadelpersonaggio" viewBox="0 0 1238 1632">
-            <g id="zoomable">
-                <image xlink:href="https://raw.githubusercontent.com/Egregge/DnD/main/assets/dnd_1.jpg"></image>
-                <foreignObject x="105" y="112" width="400" height="65">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="nomepersonaggio" class="scrollableh nowrap" style="font-size: 40;"></p>
-                </foreignObject>
-                <foreignObject x="555" y="90" width="200" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="classeelivello" style="font-size: 24;"></p>
-                </foreignObject>
-                <foreignObject x="790" y="90" width="190" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="background" style="font-size: 24;"></p>
-                </foreignObject>
-                <foreignObject x="990" y="90" width="180" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="nomegiocatore" style="font-size: 24;"></p>
-                </foreignObject>
-                <foreignObject x="555" y="145" width="200" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="razza" style="font-size: 24;"></p>
-                </foreignObject>
-                <foreignObject x="790" y="145" width="190" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="allineamento" style="font-size: 24;"></p>
-                </foreignObject>
-                <foreignObject x="990" y="145" width="180" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="puntiesperienza" style="font-size: 24;"></p>
-                </foreignObject>
-                <!-- Statistiche -->
-                <foreignObject x="85" y="375" width="40" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="forza" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="85" y="525" width="40" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="destrezza" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="85" y="673" width="40" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="costituzione" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="85" y="822" width="40" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="intelligenza" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="85" y="973" width="40" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="saggezza" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="85" y="1120" width="40" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="carisma" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- Ispirazione e bonus di competenza -->
-                <foreignObject x="180" y="255" width="60" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="ispirazione" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="180" y="335" width="60" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="bonusdicompetenza" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- TS -->
-                <circle cx="201" cy="426" r="6" fill="transparent" id="tirisalvezzaforzaa"></circle>
-                <foreignObject x="215" y="410" width="35" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzaforzav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+        <div style="overflow: hidden; flex: 1">
+            <svg id="schedadelpersonaggio" viewBox="0 0 1238 1632">
+                <g id="zoomable">
+                    <image xlink:href="https://raw.githubusercontent.com/Egregge/DnD/main/assets/dnd_1.jpg"></image>
+                    <foreignObject x="105" y="112" width="400" height="65">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="nomepersonaggio" class="scrollableh nowrap" style="font-size: 40;"></p>
+                    </foreignObject>
+                    <foreignObject x="555" y="90" width="200" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="classeelivello" style="font-size: 24;"></p>
+                    </foreignObject>
+                    <foreignObject x="790" y="90" width="190" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="background" style="font-size: 24;"></p>
+                    </foreignObject>
+                    <foreignObject x="990" y="90" width="180" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="nomegiocatore" style="font-size: 24;"></p>
+                    </foreignObject>
+                    <foreignObject x="555" y="145" width="200" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="razza" style="font-size: 24;"></p>
+                    </foreignObject>
+                    <foreignObject x="790" y="145" width="190" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="allineamento" style="font-size: 24;"></p>
+                    </foreignObject>
+                    <foreignObject x="990" y="145" width="180" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="puntiesperienza" style="font-size: 24;"></p>
+                    </foreignObject>
+                    <!-- Statistiche -->
+                    <foreignObject x="85" y="375" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="forza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="525" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="destrezza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="673" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="costituzione" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="822" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="intelligenza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="973" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="saggezza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="1120" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="carisma" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- Ispirazione e bonus di competenza -->
+                    <foreignObject x="180" y="255" width="60" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="ispirazione" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="180" y="335" width="60" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="bonusdicompetenza" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- TS -->
+                    <circle cx="201" cy="426" r="6" fill="transparent" id="tirisalvezzaforzaa"></circle>
+                    <foreignObject x="215" y="410" width="35" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzaforzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="454" r="6" fill="transparent" id="tirisalvezzadestrezzaa"></circle>
-                <foreignObject x="215" y="440" width="35" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzadestrezzav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="454" r="6" fill="transparent" id="tirisalvezzadestrezzaa"></circle>
+                    <foreignObject x="215" y="440" width="35" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzadestrezzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="482" r="6" fill="transparent" id="tirisalvezzacostituzionea"></circle>
-                <foreignObject x="215" y="467" width="35" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzacostituzionev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="482" r="6" fill="transparent" id="tirisalvezzacostituzionea"></circle>
+                    <foreignObject x="215" y="467" width="35" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzacostituzionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="510" r="6" fill="transparent" id="tirisalvezzaintelligenzaa"></circle>
-                <foreignObject x="215" y="495" width="35" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzaintelligenzav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="510" r="6" fill="transparent" id="tirisalvezzaintelligenzaa"></circle>
+                    <foreignObject x="215" y="495" width="35" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzaintelligenzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="539" r="6" fill="transparent" id="tirisalvezzasaggezzaa"></circle>
-                <foreignObject x="215" y="525" width="35" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzasaggezzav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="539" r="6" fill="transparent" id="tirisalvezzasaggezzaa"></circle>
+                    <foreignObject x="215" y="525" width="35" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzasaggezzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="567" r="6" fill="transparent" id="tirisalvezzacarismaa"></circle>
-                <foreignObject x="215" y="550" width="35" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzacarismav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- Abilità -->
-                <circle cx="201" cy="666" r="6" id="abilitaacrobaziaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="651">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaacrobaziav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="567" r="6" fill="transparent" id="tirisalvezzacarismaa"></circle>
+                    <foreignObject x="215" y="550" width="35" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tirisalvezzacarismav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- Abilità -->
+                    <circle cx="201" cy="666" r="6" id="abilitaacrobaziaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="651">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaacrobaziav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="696" r="6" id="abilitaaddestramentoanimalia" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="681">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaaddestramentoanimaliv" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="696" r="6" id="abilitaaddestramentoanimalia" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="681">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaaddestramentoanimaliv" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="722" r="6" id="abilitaarcanoa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="707"> 
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaarcanov" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="722" r="6" id="abilitaarcanoa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="707"> 
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaarcanov" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="751" r="6" id="abilitaatleticaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="736">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaatleticav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="751" r="6" id="abilitaatleticaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="736">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaatleticav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="780" r="6" id="abilitafurtivitaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="765">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitafurtivitav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="780" r="6" id="abilitafurtivitaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="765">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitafurtivitav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="807" r="6" id="abilitaindagarea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="792">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaindagarev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="807" r="6" id="abilitaindagarea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="792">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaindagarev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="836" r="6" id="abilitaingannoa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="821">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaingannov" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="836" r="6" id="abilitaingannoa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="821">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaingannov" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="864" r="6" id="abilitaintimidirea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="849">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintimidirev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="864" r="6" id="abilitaintimidirea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="849">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintimidirev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="893" r="6" id="abilitaintrattenerea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="878">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintrattenerev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="893" r="6" id="abilitaintrattenerea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="878">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintrattenerev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="920" r="6" id="abilitaintuizionea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="905">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintuizionev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="920" r="6" id="abilitaintuizionea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="905">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitaintuizionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="949" r="6" id="abilitamedicinaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="934">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitamedicinav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="949" r="6" id="abilitamedicinaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="934">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitamedicinav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="977" r="6" id="abilitanaturaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="962">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitanaturav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="977" r="6" id="abilitanaturaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="962">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitanaturav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="1005" r="6" id="abilitapercezionea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="990">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitapercezionev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="1005" r="6" id="abilitapercezionea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="990">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitapercezionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="1032" r="6" id="abilitapersuasionea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="1017">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitapersuasionev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="1032" r="6" id="abilitapersuasionea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="1017">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitapersuasionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="1060" r="6" id="abilitarapiditadimanoa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="1045">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitarapiditadimanov" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="1060" r="6" id="abilitarapiditadimanoa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="1045">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitarapiditadimanov" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="1088" r="6" id="abilitareligionea" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="1073">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitareligionev" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="1088" r="6" id="abilitareligionea" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="1073">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitareligionev" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="1116" r="6" id="abilitasopravvivenzaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="1101">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitasopravvivenzav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
+                    <circle cx="201" cy="1116" r="6" id="abilitasopravvivenzaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="1101">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitasopravvivenzav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
 
-                <circle cx="201" cy="1145" r="6" id="abilitastoriaa" fill="black"></circle>
-                <foreignObject width="35" height="64" x="215" y="1130">
-                    <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitastoriav" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- CA, iniziativa e velocità -->
-                <foreignObject x="470" y="290" width="60" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="ca" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="580" y="290" width="80" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="iniziativa" style="font-size: 40;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="700" y="290" width="80" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="velocita" style="font-size: 40;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- Punti ferita -->
-                <foreignObject x="470" y="440" width="310" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitaatt" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="620" y="385" width="160" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitamax" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="470" y="555" width="310" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitatemp" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- Dadi Vita -->
-                <foreignObject x="505" y="643" width="100" height="32">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="dadivitatot" style="font-size: 24;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="465" y="680" width="140" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="dadivitaatt" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- Tiri salvezza contro morte -->
-                <circle cx="716" cy="666" r="10" id="tscontromortes0"></circle>
-                <circle cx="742" cy="666" r="10" id="tscontromortes1"></circle>
-                <circle cx="769" cy="666" r="10" id="tscontromortes2"></circle>
-                <circle cx="716" cy="697" r="10" id="tscontromortef0"></circle>
-                <circle cx="742" cy="697" r="10" id="tscontromortef1"></circle>
-                <circle cx="769" cy="697" r="10" id="tscontromortef2"></circle>
-                <!-- saggezza (percezione) passiva -->
-                <foreignObject x="50" y="1215" width="50" height="64">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="saggezzapercezionepassiva" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <!-- tratticaratteriali, ideali, legami e difetti -->
-                <foreignObject x="853" y="290" width="330" height="90">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="tratticaratteriali" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
-                </foreignObject>
-                <foreignObject x="853" y="420" width="330" height="90">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="ideali" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
-                </foreignObject>
-                <foreignObject x="853" y="530" width="330" height="80">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="legami" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
-                </foreignObject>
-                <foreignObject x="853" y="645" width="330" height="80">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="difetti" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
-                </foreignObject>
-                <!-- attacchi e incantesimi -->
-                <foreignObject x="450" y="785" width="350" height="385">
-                    <table xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; overflow-y: scroll;">
-                        <thead>
-                            <tr>
-                                <th><span style="font-size: 24;justify-content: center;display: flex;">Nome</span></th>
-                                <th><span style="font-size: 24;justify-content: center;display: flex;">Bonus Att</span></th>
-                                <th><span style="font-size: 24;justify-content: center;display: flex;">Danni/Tipo</span></th>
-                            </tr>
-                        </thead>
-                        <tbody id="attacchieincantesimi">
-                        </tbody>
-                    </table>
-                </foreignObject>
-                <!-- privilegi e tratti -->
-                <foreignObject x="840" y="785" width="350" height="775">
-                    <div xmlns="http://www.w3.org/1999/xhtml" id="privilegietratti">
-                        
-                    </div>
-                </foreignObject>
-                <!-- altre competenze -->
-                <foreignObject x="60" y="1300" width="340" height="260">
-                    <div xmlns="http://www.w3.org/1999/xhtml" id="altrecompetenzeelinguaggi">
-                        
-                    </div>
-                </foreignObject>
-                <!-- equipaggiamento -->
-                <foreignObject x="545" y="1230" width="250" height="330">
-                    <table xmlns="http://www.w3.org/1999/xhtml">
-                        <!-- <thead>
-                            <tr>
-                                <th style="font-size: 24;">Quantità</th>
-                                <th style="font-size: 24;">Oggetto</th>
-                            </tr>
-                        </thead> -->
-                        <tbody  id="equipaggiamento">
+                    <circle cx="201" cy="1145" r="6" id="abilitastoriaa" fill="black"></circle>
+                    <foreignObject width="35" height="64" x="215" y="1130">
+                        <p  xmlns="http://www.w3.org/1999/xhtml" id="abilitastoriav" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- CA, iniziativa e velocità -->
+                    <foreignObject x="470" y="290" width="60" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="ca" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="580" y="290" width="80" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="iniziativa" style="font-size: 40;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="700" y="290" width="80" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="velocita" style="font-size: 40;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- Punti ferita -->
+                    <foreignObject x="470" y="440" width="310" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitaatt" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="620" y="385" width="160" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitamax" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="470" y="555" width="310" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="puntiferitatemp" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- Dadi Vita -->
+                    <foreignObject x="505" y="643" width="100" height="32">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="dadivitatot" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="465" y="680" width="140" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="dadivitaatt" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- Tiri salvezza contro morte -->
+                    <circle cx="716" cy="666" r="10" id="tscontromortes0"></circle>
+                    <circle cx="742" cy="666" r="10" id="tscontromortes1"></circle>
+                    <circle cx="769" cy="666" r="10" id="tscontromortes2"></circle>
+                    <circle cx="716" cy="697" r="10" id="tscontromortef0"></circle>
+                    <circle cx="742" cy="697" r="10" id="tscontromortef1"></circle>
+                    <circle cx="769" cy="697" r="10" id="tscontromortef2"></circle>
+                    <!-- saggezza (percezione) passiva -->
+                    <foreignObject x="50" y="1215" width="50" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="saggezzapercezionepassiva" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <!-- tratticaratteriali, ideali, legami e difetti -->
+                    <foreignObject x="853" y="290" width="330" height="90">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="tratticaratteriali" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+                    </foreignObject>
+                    <foreignObject x="853" y="420" width="330" height="90">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="ideali" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+                    </foreignObject>
+                    <foreignObject x="853" y="530" width="330" height="80">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="legami" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+                    </foreignObject>
+                    <foreignObject x="853" y="645" width="330" height="80">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="difetti" class="scrollable" style="font-size: 24;display: block; overflow-y: auto;"></p>
+                    </foreignObject>
+                    <!-- attacchi e incantesimi -->
+                    <foreignObject x="450" y="785" width="350" height="385">
+                        <table xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; overflow-y: scroll;">
+                            <thead>
+                                <tr>
+                                    <th><span style="font-size: 24;justify-content: center;display: flex;">Nome</span></th>
+                                    <th><span style="font-size: 24;justify-content: center;display: flex;">Bonus Att</span></th>
+                                    <th><span style="font-size: 24;justify-content: center;display: flex;">Danni/Tipo</span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="attacchieincantesimi">
+                            </tbody>
+                        </table>
+                    </foreignObject>
+                    <!-- privilegi e tratti -->
+                    <foreignObject x="840" y="785" width="350" height="775">
+                        <div xmlns="http://www.w3.org/1999/xhtml" id="privilegietratti">
+                            
+                        </div>
+                    </foreignObject>
+                    <!-- altre competenze -->
+                    <foreignObject x="60" y="1300" width="340" height="260">
+                        <div xmlns="http://www.w3.org/1999/xhtml" id="altrecompetenzeelinguaggi">
+                            
+                        </div>
+                    </foreignObject>
+                    <!-- equipaggiamento -->
+                    <foreignObject x="545" y="1230" width="250" height="330">
+                        <table xmlns="http://www.w3.org/1999/xhtml">
+                            <!-- <thead>
+                                <tr>
+                                    <th style="font-size: 24;">Quantità</th>
+                                    <th style="font-size: 24;">Oggetto</th>
+                                </tr>
+                            </thead> -->
+                            <tbody  id="equipaggiamento">
 
-                        </tbody>
-                    </table>
-                </foreignObject>
-                <!-- Monete -->
-                <foreignObject x="465" y="1232" width="60" height="72">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="mr" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="465" y="1286" width="60" height="72">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="ma" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="465" y="1341" width="60" height="72">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="me" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="465" y="1395" width="60" height="72">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="mo" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-                <foreignObject x="465" y="1449" width="60" height="72">
-                    <p xmlns="http://www.w3.org/1999/xhtml" id="mp" style="font-size: 35;justify-content: center;display: flex;"></p>
-                </foreignObject>
-            </g>
-        </svg>
+                            </tbody>
+                        </table>
+                    </foreignObject>
+                    <!-- Monete -->
+                    <foreignObject x="465" y="1232" width="60" height="72">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="mr" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="465" y="1286" width="60" height="72">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="ma" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="465" y="1341" width="60" height="72">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="me" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="465" y="1395" width="60" height="72">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="mo" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="465" y="1449" width="60" height="72">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="mp" style="font-size: 35;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                </g>
+            </svg>
+        </div>
         <!-- <script src="/socket.io/socket.io.js"></script> -->
         <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>        
         <script type="module">
