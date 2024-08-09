@@ -15,10 +15,10 @@
     },
     "statistiche": {
         "forza": 14,
-        "destrezza": 8,
+        "destrezza": 13,
         "costituzione": 12,
         "intelligenza": 15,
-        "saggezza": 10,
+        "saggezza": 13,
         "carisma": 10
     },
     "ispirazione": false,
