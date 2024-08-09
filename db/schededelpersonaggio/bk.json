@@ -127,8 +127,8 @@
     "iniziativa": "",
     "velocita": "",
     "puntiferita": {
-        "max": 8,
-        "attuali": 8,
+        "max": 20,
+        "attuali": 20,
         "temp": 0
     },
     "dadivita": {

@@ -127,13 +127,13 @@
     "iniziativa": "",
     "velocita": "",
     "puntiferita": {
-        "max": 0,
-        "attuali": 0,
+        "max": 24,
+        "attuali": 24,
         "temp": 0
     },
     "dadivita": {
-        "totale": 0,
-        "attuale": 0
+        "totale": 8,
+        "attuale": 8
     },
     "tscontromorte": {
         "success": 0,
