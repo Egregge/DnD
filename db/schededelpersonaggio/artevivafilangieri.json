@@ -21,6 +21,14 @@
         "saggezza": 13,
         "carisma": 13
     },
+    "modificatore statistica":{
+        "forza": 0,
+        "destrezza": 0,
+        "costituzione": 0,
+        "intelligenza": 0,
+        "saggezza": 0,
+        "carisma": 0
+    },
     "ispirazione": false,
     "bonusdicompetenza": "",
     "tirisalvezza": {
