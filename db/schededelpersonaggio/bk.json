@@ -71,7 +71,7 @@
             "valore": 0
         },
         "atletica": {
-            "attivo": false,
+            "attivo": true,
             "valore": 0
         },
         "furtivita": {
@@ -123,7 +123,7 @@
             "valore": 0
         },
         "sopravvivenza": {
-            "attivo": false,
+            "attivo": true,
             "valore": 0
         },
         "storia": {
@@ -156,12 +156,20 @@
     "altrecompetenzeelinguaggi": [
         "Affinità con l'elemento Roccia"
     ],
-    "equipaggiamento": [],
+    "equipaggiamento": [
+{"quantita": 10, "nome": "dardi"},
+{"quantita": 1, "nome": "dotazione da avventuriero"},
+{"quantita": 1, "nome": "Ascia"},
+{"quantita": 1, "nome": "bastone"},
+{"quantita": 1, "nome": "tagliola"},
+{"quantita": 1, "nome": "trofeo animale ucciso"},
+{"quantita": 1, "nome": "borsa"}
+],
     "monete": {
         "mr": 0,
         "ma": 0,
         "me": 0,
-        "mo": 15,
+        "mo": 25,
         "mp": 0
     },
     "privilegietratti": [
