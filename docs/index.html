@@ -78,6 +78,25 @@
                     <foreignObject x="85" y="1120" width="40" height="64">
                         <p xmlns="http://www.w3.org/1999/xhtml" id="carisma" style="font-size: 24;justify-content: center;display: flex;"></p>
                     </foreignObject>
+<!-- Modificatore statistiche -->
+<foreignObject x="85" y="300" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="msforza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="450" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="msdestrezza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="598" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="mscostituzione" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="753" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="msintelligenza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="898" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="mssaggezza" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
+                    <foreignObject x="85" y="1050" width="40" height="64">
+                        <p xmlns="http://www.w3.org/1999/xhtml" id="mscarisma" style="font-size: 24;justify-content: center;display: flex;"></p>
+                    </foreignObject>
                     <!-- Ispirazione e bonus di competenza -->
                     <foreignObject x="180" y="255" width="60" height="64">
                         <p xmlns="http://www.w3.org/1999/xhtml" id="ispirazione" style="font-size: 35;justify-content: center;display: flex;"></p>
@@ -371,6 +390,13 @@
                 document.getElementById("intelligenza").innerHTML=data.statistiche.intelligenza
                 document.getElementById("saggezza").innerHTML=data.statistiche.saggezza
                 document.getElementById("carisma").innerHTML=data.statistiche.carisma
+
+document.getElementById("msforza").innerHTML=data.modificatorestatistica.forza>0?"+"+data.modificatorestatistica.forza:data.modificatorestatistica.forza
+                document.getElementById("msdestrezza").innerHTML=data.modificatorestatistica.destrezza>0?"+"+data.modificatorestatistica.destrezza:data.modificatorestatistica.destrezza
+                document.getElementById("mscostituzione").innerHTML=data.modificatorestatistica.costituzione>0?"+"+data.modificatorestatistica.costituzione:data.modificatorestatistica.costituzione
+                document.getElementById("msintelligenza").innerHTML=data.modificatorestatistica.intelligenza>0?"+"+data.modificatorestatistica.intelligenza:data.modificatorestatistica.intelligenza
+                document.getElementById("mssaggezza").innerHTML=data.modificatorestatistica.saggezza>0?"+"+data.modificatorestatistica.saggezza:data.modificatorestatistica.saggezza
+                document.getElementById("mscarisma").innerHTML=data.modificatorestatistica.carisma>0?"+"+data.modificatorestatistica.carisma:data.modificatorestatistica.carisma
             
                 document.getElementById("ispirazione").innerHTML=data.ispirazione?"Si":"No"
                 document.getElementById("bonusdicompetenza").innerHTML=data.bonusdicompetenza
