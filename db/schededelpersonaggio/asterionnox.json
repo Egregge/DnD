@@ -71,7 +71,7 @@
             "valore": 0
         },
         "atletica": {
-            "attivo": false,
+            "attivo": true,
             "valore": 0
         },
         "furtivita": {
@@ -123,7 +123,7 @@
             "valore": 0
         },
         "sopravvivenza": {
-            "attivo": false,
+            "attivo": true,
             "valore": 0
         },
         "storia": {
@@ -157,7 +157,13 @@
         "Affinità con l'elemento Erba",
         "Cacciatore di taglie"
     ],
-    "equipaggiamento": [],
+    "equipaggiamento": [
+{"quantita": 1, "nome": "bastone"},
+{"quantita": 1, "nome": "tagliola"},
+{"quantita": 1, "nome": "abito da viaggiatore"},
+{"quantita": 1, "nome": "trofeo animale ucciso"},
+{"quantita": 1, "nome": "borsa"}
+],
     "monete": {
         "mr": 0,
         "ma": 0,
