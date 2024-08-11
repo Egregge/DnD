@@ -157,15 +157,15 @@
         "Affinità con l'elemento Acqua"
     ],
     "equipaggiamento": [
-{"quantita": 10, "nome": "dardi"},
-{"quantita": 1, "nome": "dotazione da esploratore"},
-{"quantita": 1, "nome": "Spada corta"},
-{"quantita": 1, "nome": "bastone"},
-{"quantita": 1, "nome": "tagliola"},
-{"quantita": 1, "nome": "trofeo animale ucciso"},
-{"quantita": 1, "nome": "abito da viaggiatore"},
-{"quantita": 1, "nome": "borsa"}
-],
+        {"quantita": 10, "nome": "dardi"},
+        {"quantita": 1, "nome": "dotazione da esploratore"},
+        {"quantita": 1, "nome": "Spada corta"},
+        {"quantita": 1, "nome": "bastone"},
+        {"quantita": 1, "nome": "tagliola"},
+        {"quantita": 1, "nome": "trofeo animale ucciso"},
+        {"quantita": 1, "nome": "abito da viaggiatore"},
+        {"quantita": 1, "nome": "borsa"}
+    ],
     "monete": {
         "mr": 0,
         "ma": 0,

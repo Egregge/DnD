@@ -160,13 +160,13 @@
         "Esperto nella disciplina artistica: Cantore"
     ],
     "equipaggiamento": [
-{"quantita": 1, "nome": "armatura di cuoio"},
-{"quantita": 1, "nome": "pugnale"},
-{"quantita": 1, "nome":"piede di un ammiratore"},
-{"quantita": 1, "nome": "borsa"},
-{"quantita": 1, "nome": "ascia"},
-{"quantita": 1, "nome": "costume"}
-],
+        {"quantita": 1, "nome": "armatura di cuoio"},
+        {"quantita": 1, "nome": "pugnale"},
+        {"quantita": 1, "nome":"piede di un ammiratore"},
+        {"quantita": 1, "nome": "borsa"},
+        {"quantita": 1, "nome": "ascia"},
+        {"quantita": 1, "nome": "costume"}
+    ],
     "monete": {
         "mr": 0,
         "ma": 0,
