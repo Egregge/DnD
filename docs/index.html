@@ -339,13 +339,22 @@
         <script type="module">
             var canv = document.getElementById("schedadelpersonaggio")
             var canvg = document.getElementById("zoomable")
-            window.pz = panzoom(canv, {
+            /**
+             * @type {import("panzoom").PanZoomOptions}
+             */
+            var zoomopt = {
                 autocenter: true, 
-                bounds: true,
+                bounds: false,
                 minZoom: 1, 
                 maxZoom: 10,
-                //boundsPadding: 0.8
-            })
+                onTouch: (e) => {
+                    if (!e.target.hasScrollBar()) {
+                        e.preventDefault()
+                    }
+                    //socket.emit("log", e.targetTouches)
+                }
+            }
+            var zoom = panzoom(canv, zoomopt)
             // var zoom = svgPanZoom(canv, {
             //     minZoom: 1,
             //     maxZoom: 10,
