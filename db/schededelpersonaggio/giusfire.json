@@ -157,7 +157,8 @@
         "Affinità con l'elemento fuoco"
     ],
     "equipaggiamento": [
-        {"quantita": 1, "nome": "spada corta"},
+        {"quantita": 2, "nome": "spada corta"},
+        {"quantita": 1, "nome": "pugnale"},
         {"quantita": 1, "nome": "arco corto"},
         {"quantita": 1, "nome": "faretra"},
         {"quantita": 20, "nome": "frecce"},
@@ -166,13 +167,13 @@
         {"quantita": 1, "nome": "arensi da scasso"},
         {"quantita": 1, "nome": "piede di porco"},
         {"quantita": 1, "nome": "abito comune comprensivo di cappuccio"},
-        {"quantita": 1, "nome": "una borsa"}
+        {"quantita": 2, "nome": "borsa"}
     ],
     "monete": {
         "mr": 0,
-        "ma": 0,
+        "ma": 5,
         "me": 0,
-        "mo": 115,
+        "mo": 121,
         "mp": 0
     },
     "privilegietratti": [
